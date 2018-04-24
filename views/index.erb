@@ -20,12 +20,17 @@
   <div class="col text-center">
   <button type="button" class="btn btn-light">
     <a href="/dogs">
-      Dogs <span class="badge badge-primary">6</span>
+      Dogs <span class="badge badge-primary"><%= @num_of_dogs %></span>
     </a>
   </button>
   <button type="button" class="btn btn-light">
     <a href="/owners">
-      Owners <span class="badge badge-primary">2</span>
+      Owners <span class="badge badge-primary"><%= @num_of_owners %></span>
+    </a>
+  </button>
+  <button type="button" class="btn btn-light">
+    <a href="/woof">
+      Surprise!
     </a>
   </button>
   </div>
